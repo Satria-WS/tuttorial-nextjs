@@ -1,0 +1,7 @@
+$ json-server --version
+$ json-server -w db.json -p 5000
+json-server --watch db.json -p 5000
+
+
+//for limit data
+http://localhost:5000/products?_limit=2
