@@ -1,3 +1,4 @@
+
 const PostDetail = async ({ params }: { params: { postid: string } }) => {
   console.log("hello world");
   const awaitedParams = await params;
